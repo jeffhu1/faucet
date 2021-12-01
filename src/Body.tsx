@@ -33,7 +33,7 @@ export const Body = () => {
         <Spacer />
         <WalletButton />
       </Flex>
-      <VStack spacing="20px">
+      <VStack spacing="20px" mt={8}>
         <Image src="faucet.png" />
         <Text fontSize="2xl">Mock USDC Faucet (devnet)</Text>
         <Text fontSize="2xl">
